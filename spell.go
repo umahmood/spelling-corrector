@@ -190,7 +190,7 @@ func affix(items ...[]string) []string {
 }
 
 func main() {
-	words := readWords("/Volumes/Venice/files/xjunk/big.txt")
+	words := readWords("big.txt")
 	count := countWords(words)
 
 	if len(os.Args) == 1 {
