@@ -3,6 +3,8 @@
 A spelling corrector written in Go. Based on the spelling corrector 
 described by Peter Norvig [here](http://norvig.com/spell-correct.html).
 
+Note: The language model *big.txt* (6 MB), can be found [here](http://norvig.com/big.txt).
+
 # Installation
 
 > go get github.com/umahmood/spelling-corrector
