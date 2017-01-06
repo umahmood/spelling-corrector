@@ -9,6 +9,7 @@ import (
 	"strings"
 )
 
+// Words holds a mapping of words to there respective counts.
 type Words map[string]int
 
 // sum sums the values of the counter.
@@ -43,10 +44,10 @@ func readWords(name string) []string {
 
 // countWords counts all the items in the words slice, words are stored as keys
 // and their counts are stored as values.
-func countWords(words []string) Words {
+func countWords(w []string) Words {
 	c := make(Words)
-	for _, w := range words {
-		c[w] += 1
+	for _, v := range w {
+		c[v]++
 	}
 	return c
 }
@@ -162,7 +163,7 @@ func edits1(word string) []string {
 	}
 
 	var edits []string
-	for k, _ := range set {
+	for k := range set {
 		edits = append(edits, k)
 	}
 
