@@ -194,7 +194,7 @@ func main() {
 	count := countWords(words)
 
 	if len(os.Args) == 1 {
-		fmt.Println("usage: spell <mis-spelt word> e.g. spell peotryy")
+		fmt.Println("usage: spelling-corrector <mis-spelt word> e.g. spelling-corrector peotryy")
 		return
 	}
 
