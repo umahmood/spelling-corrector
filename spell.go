@@ -12,7 +12,7 @@ import (
 // Words holds a mapping of words to there respective counts.
 type Words map[string]int
 
-// sum sums the values of the counter.
+// sum sums the values of the Words map.
 func (c Words) sum() int {
 	var sum int
 	for _, v := range c {
