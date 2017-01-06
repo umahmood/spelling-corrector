@@ -9,11 +9,11 @@ Note: The language model *big.txt* (6 MB), can be found [here](http://norvig.com
 
 > go get github.com/umahmood/spelling-corrector
 
-This will build a binary (*spell*) and place it in *$GOPATH/bin*.
+This will build a binary (*spelling-corrector*) and place it in *$GOPATH/bin*.
 
 # Usage
 
-> $ spell bycycle 
+> $ spelling-corrector bycycle 
 > 
 > bicycle 
 
